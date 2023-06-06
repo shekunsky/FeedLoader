@@ -15,6 +15,7 @@
 		3B2D94542A276EED00A35C06 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D94532A276EED00A35C06 /* FeedLoader.swift */; };
 		3B2D945D2A28D72E00A35C06 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D945C2A28D72E00A35C06 /* RemoteFeedLoader.swift */; };
 		3B2D94602A2F60FC00A35C06 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D945F2A2F60FC00A35C06 /* HTTPClient.swift */; };
+		3B2D94622A2F61A600A35C06 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D94612A2F61A600A35C06 /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		3B2D94532A276EED00A35C06 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		3B2D945C2A28D72E00A35C06 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		3B2D945F2A2F60FC00A35C06 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		3B2D94612A2F61A600A35C06 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				3B2D945C2A28D72E00A35C06 /* RemoteFeedLoader.swift */,
 				3B2D945F2A2F60FC00A35C06 /* HTTPClient.swift */,
+				3B2D94612A2F61A600A35C06 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				3B2D945D2A28D72E00A35C06 /* RemoteFeedLoader.swift in Sources */,
 				3B2D94602A2F60FC00A35C06 /* HTTPClient.swift in Sources */,
 				3B2D94542A276EED00A35C06 /* FeedLoader.swift in Sources */,
+				3B2D94622A2F61A600A35C06 /* FeedItemsMapper.swift in Sources */,
 				3B2D943C2A276C7A00A35C06 /* EssentialFeed.docc in Sources */,
 				3B2D94522A276CB000A35C06 /* FeedItem.swift in Sources */,
 			);
