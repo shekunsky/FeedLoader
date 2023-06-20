@@ -25,6 +25,7 @@
 		3B2D94682A3372D500A35C06 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D94672A3372D500A35C06 /* XCTestCase+MemoryLeakTracking.swift */; };
 		3B2D946A2A33895900A35C06 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D94692A33895900A35C06 /* URLSessionHTTPClient.swift */; };
 		3B32BE022A41E65600CDB1EB /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32BE012A41E65600CDB1EB /* LocalFeedLoader.swift */; };
+		3B32BE042A41E6F100CDB1EB /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32BE032A41E6F100CDB1EB /* FeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		3B2D94672A3372D500A35C06 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		3B2D94692A33895900A35C06 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		3B32BE012A41E65600CDB1EB /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		3B32BE032A41E6F100CDB1EB /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				3B32BE012A41E65600CDB1EB /* LocalFeedLoader.swift */,
+				3B32BE032A41E6F100CDB1EB /* FeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B32BE042A41E6F100CDB1EB /* FeedStore.swift in Sources */,
 				3B2D946A2A33895900A35C06 /* URLSessionHTTPClient.swift in Sources */,
 				3B2D945D2A28D72E00A35C06 /* RemoteFeedLoader.swift in Sources */,
 				3B2D94602A2F60FC00A35C06 /* HTTPClient.swift in Sources */,
