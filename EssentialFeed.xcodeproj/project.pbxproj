@@ -26,6 +26,7 @@
 		3B2D946A2A33895900A35C06 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D94692A33895900A35C06 /* URLSessionHTTPClient.swift */; };
 		3B32BE022A41E65600CDB1EB /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32BE012A41E65600CDB1EB /* LocalFeedLoader.swift */; };
 		3B32BE042A41E6F100CDB1EB /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32BE032A41E6F100CDB1EB /* FeedStore.swift */; };
+		3B32BE062A432B9100CDB1EB /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32BE052A432B9100CDB1EB /* RemoteFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		3B2D94692A33895900A35C06 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		3B32BE012A41E65600CDB1EB /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		3B32BE032A41E6F100CDB1EB /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		3B32BE052A432B9100CDB1EB /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,8 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				3B2D945C2A28D72E00A35C06 /* RemoteFeedLoader.swift */,
-				3B2D945F2A2F60FC00A35C06 /* HTTPClient.swift */,
 				3B2D94612A2F61A600A35C06 /* FeedItemsMapper.swift */,
+				3B32BE052A432B9100CDB1EB /* RemoteFeedItem.swift */,
+				3B2D945F2A2F60FC00A35C06 /* HTTPClient.swift */,
 				3B2D94692A33895900A35C06 /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
@@ -353,6 +356,7 @@
 				3B2D94602A2F60FC00A35C06 /* HTTPClient.swift in Sources */,
 				3B2D94542A276EED00A35C06 /* FeedLoader.swift in Sources */,
 				3B2D94622A2F61A600A35C06 /* FeedItemsMapper.swift in Sources */,
+				3B32BE062A432B9100CDB1EB /* RemoteFeedItem.swift in Sources */,
 				3B2D943C2A276C7A00A35C06 /* EssentialFeed.docc in Sources */,
 				3B32BE022A41E65600CDB1EB /* LocalFeedLoader.swift in Sources */,
 				3B2D94522A276CB000A35C06 /* FeedItem.swift in Sources */,
