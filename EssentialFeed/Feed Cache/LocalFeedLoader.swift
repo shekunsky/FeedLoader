@@ -8,31 +8,25 @@
 import Foundation
 
 private final class FeedCachePolicy {
-    private let currentDate: () -> Date
     private let calendar = Calendar(identifier: .gregorian)
     private var maxCacheAgeInDays: Int { return 7 }
     
-    init(currentDate: @escaping () -> Date) {
-        self.currentDate = currentDate
-    }
-    
-    func validate(_ timestamp: Date) -> Bool {
+    func validate(_ timestamp: Date, against date: Date) -> Bool {
         guard let maxCacheAge = calendar.date(byAdding: .day, value: maxCacheAgeInDays, to: timestamp) else {
             return false
         }
-        return currentDate() < maxCacheAge
+        return date < maxCacheAge
     }
 }
 
 public final class LocalFeedLoader {
     private let store: FeedStore
     private let currentDate: () -> Date
-    private let cachePolice: FeedCachePolicy
+    private let cachePolice = FeedCachePolicy()
     
     public init(store: FeedStore, currentDate: @escaping () -> Date) {
         self.store = store
         self.currentDate = currentDate
-        self.cachePolice = FeedCachePolicy(currentDate: currentDate)
     }
     
 }
@@ -71,7 +65,7 @@ extension LocalFeedLoader: FeedLoader {
             switch result {
             case let .failure(error):
                 completion(.failure(error))
-            case let .found(feed: feed, timeStamp) where self.cachePolice.validate(timeStamp):
+            case let .found(feed: feed, timeStamp) where self.cachePolice.validate(timeStamp, against: self.currentDate()):
                 completion(.success(feed.toModels()))
             case .empty, .found:
                 completion(.success([]))
@@ -88,7 +82,7 @@ extension LocalFeedLoader {
             switch result {
             case .failure:
                 self.store.deleteCachedFeed { _ in }
-            case let .found(_, timeStamp) where !self.cachePolice.validate(timeStamp):
+            case let .found(_, timeStamp) where !self.cachePolice.validate(timeStamp, against: self.currentDate()):
                 self.store.deleteCachedFeed { _ in }
             case .found, .empty: break
             }
