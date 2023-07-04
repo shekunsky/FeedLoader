@@ -237,15 +237,31 @@
 		3B32BE002A41E60000CDB1EB /* Feed Cache */ = {
 			isa = PBXGroup;
 			children = (
+				3B35DD212A544505004DB2C4 /* Infrastructure */,
 				3B32BE012A41E65600CDB1EB /* LocalFeedLoader.swift */,
 				3B32BE032A41E6F100CDB1EB /* FeedStore.swift */,
 				3B32BE072A432C2D00CDB1EB /* LocalFeedImage.swift */,
 				3B3BD62D2A4B253400CE976E /* FeedCachePolicy.swift */,
 				3B3BD6312A4DDC2100CE976E /* CodableFeedStore.swift */,
+			);
+			path = "Feed Cache";
+			sourceTree = "<group>";
+		};
+		3B35DD212A544505004DB2C4 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				3B35DD222A544518004DB2C4 /* CoreData */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		3B35DD222A544518004DB2C4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
 				3BAD16232A52FF1E0071EB4D /* CoreDataFeedStore.swift */,
 				3BAD16252A5301250071EB4D /* FeedStore.xcdatamodeld */,
 			);
-			path = "Feed Cache";
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		3BAD16202A52F06F0071EB4D /* FeedStoreSpecs */ = {
