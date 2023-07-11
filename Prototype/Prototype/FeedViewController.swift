@@ -7,12 +7,13 @@
 
 import UIKit
 
-class FeedViewController: UITableViewController {
+struct FeedImageViewModel {
+    let description: String?
+    let location: String?
+    let imageName: String
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+class FeedViewController: UITableViewController {
 
     // MARK: - Table view data source
 
