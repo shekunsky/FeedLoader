@@ -14,6 +14,7 @@
 		3B23A3212A5D948B007FD182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B23A31F2A5D948B007FD182 /* LaunchScreen.storyboard */; };
 		3B23A3292A5D9CA7007FD182 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23A3282A5D9CA7007FD182 /* FeedViewController.swift */; };
 		3B23A32B2A5D9EE6007FD182 /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23A32A2A5D9EE6007FD182 /* FeedImageViewModel+PrototypeData.swift */; };
+		3B23A32D2A5DA001007FD182 /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23A32C2A5DA001007FD182 /* FeedImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3B23A3222A5D948B007FD182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B23A3282A5D9CA7007FD182 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3B23A32A2A5D9EE6007FD182 /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
+		3B23A32C2A5DA001007FD182 /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3B23A3162A5D9487007FD182 /* SceneDelegate.swift */,
 				3B23A3282A5D9CA7007FD182 /* FeedViewController.swift */,
 				3B23A32A2A5D9EE6007FD182 /* FeedImageViewModel+PrototypeData.swift */,
+				3B23A32C2A5DA001007FD182 /* FeedImageCell.swift */,
 				3B23A31A2A5D9487007FD182 /* Main.storyboard */,
 				3B23A31D2A5D948B007FD182 /* Assets.xcassets */,
 				3B23A31F2A5D948B007FD182 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				3B23A3292A5D9CA7007FD182 /* FeedViewController.swift in Sources */,
 				3B23A3172A5D9487007FD182 /* SceneDelegate.swift in Sources */,
 				3B23A32B2A5D9EE6007FD182 /* FeedImageViewModel+PrototypeData.swift in Sources */,
+				3B23A32D2A5DA001007FD182 /* FeedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
