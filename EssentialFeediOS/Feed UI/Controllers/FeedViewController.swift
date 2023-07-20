@@ -12,10 +12,14 @@ public final class FeedViewController: UITableViewController, UITableViewDataSou
     var tableModel = [FeedImageCellController]() {
         didSet { tableView.reloadData() }
     }
-        
-    convenience init(refreshController: FeedRefreshViewController) {
-        self.init()
+    
+    init?(coder: NSCoder, refreshController: FeedRefreshViewController) {
         self.refreshController = refreshController
+        super.init(coder: coder)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("You must create this view controller with a refreshController.")
     }
     
     public override func viewDidLoad() {
