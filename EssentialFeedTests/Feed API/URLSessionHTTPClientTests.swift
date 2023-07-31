@@ -9,26 +9,20 @@ import XCTest
 import EssentialFeed
 
 class URLSessionHTTPClientTests: XCTestCase {
-    override func setUp() {
-        super.setUp()
-        
-        URLProtocolStub.startInterceptingRequests()
-    }
     
     override func tearDown() {
         super.tearDown()
         
-        URLProtocolStub.stopInterceptingRequests()
+        URLProtocolStub.removeStub()
     }
     
-    func test_getFromURL_performsGetRequestWithURL() {
+    func test_getFromURL_performsGETRequestWithURL() {
         let url = anyURL()
-        let exp = expectation(description:"Wait for completion")
+        let exp = expectation(description: "Wait for request")
         
-        URLProtocolStub.observeRequest { request in
+        URLProtocolStub.observeRequests { request in
             XCTAssertEqual(request.url, url)
             XCTAssertEqual(request.httpMethod, "GET")
-            
             exp.fulfill()
         }
         
@@ -45,6 +39,7 @@ class URLSessionHTTPClientTests: XCTestCase {
     
     func test_getFromURL_failsOnRequestError() {
         let requestError = anyNSError()
+        
         let receivedError = resultErrorFor((data: nil, response: nil, error: requestError))
         XCTAssertEqual(requestError.domain, (receivedError as? NSError)?.domain)
         XCTAssertEqual(requestError.code, (receivedError as? NSError)?.code)
@@ -62,7 +57,7 @@ class URLSessionHTTPClientTests: XCTestCase {
         XCTAssertNotNil(resultErrorFor((data: anyData(), response: nonHTTPURLResponse(), error: nil)))
     }
     
-    func test_getFromURL_succeedOnHTTPURLResponseWitData() {
+    func test_getFromURL_succeedsOnHTTPURLResponseWithData() {
         let data = anyData()
         let response = anyHTTPURLResponse()
         
@@ -75,6 +70,7 @@ class URLSessionHTTPClientTests: XCTestCase {
     
     func test_getFromURL_succeedsWithEmptyDataOnHTTPURLResponseWithNilData() {
         let response = anyHTTPURLResponse()
+        
         let receivedValues = resultValuesFor((data: nil, response: response, error: nil))
         
         let emptyData = Data()
@@ -83,11 +79,14 @@ class URLSessionHTTPClientTests: XCTestCase {
         XCTAssertEqual(receivedValues?.response.statusCode, response.statusCode)
     }
     
-    
     // MARK: - Helpers
     
-    private func makeSUT(file: StaticString = #filePath, line: UInt = #line) -> HTTPClient {
-        let sut = URLSessionHTTPClient()
+    private func makeSUT(file: StaticString = #file, line: UInt = #line) -> HTTPClient {
+        let configuration = URLSessionConfiguration.ephemeral
+        configuration.protocolClasses = [URLProtocolStub.self]
+        let session = URLSession(configuration: configuration)
+        
+        let sut = URLSessionHTTPClient(session: session)
         trackForMemoryLeaks(sut, file: file, line: line)
         return sut
     }
@@ -97,9 +96,9 @@ class URLSessionHTTPClientTests: XCTestCase {
         
         switch result {
         case let .success((data, response)):
-            return (data: data, response: response)
+            return (data, response)
         default:
-            XCTFail("Expected failure, got \(result) instead", file: file, line: line)
+            XCTFail("Expected success, got \(result) instead", file: file, line: line)
             return nil
         }
     }
@@ -109,7 +108,7 @@ class URLSessionHTTPClientTests: XCTestCase {
         
         switch result {
         case let .failure(error):
-            return  error
+            return error
         default:
             XCTFail("Expected failure, got \(result) instead", file: file, line: line)
             return nil
@@ -118,11 +117,11 @@ class URLSessionHTTPClientTests: XCTestCase {
     
     private func resultFor(_ values: (data: Data?, response: URLResponse?, error: Error?)?, taskHandler: (HTTPClientTask) -> Void = { _ in },  file: StaticString = #file, line: UInt = #line) -> HTTPClient.Result {
         values.map { URLProtocolStub.stub(data: $0, response: $1, error: $2) }
-        let exp = expectation(description:"Wait for completion")
+        
         let sut = makeSUT(file: file, line: line)
+        let exp = expectation(description: "Wait for completion")
         
         var receivedResult: HTTPClient.Result!
-        
         taskHandler(sut.get(from: anyURL()) { result in
             receivedResult = result
             exp.fulfill()
@@ -140,7 +139,7 @@ class URLSessionHTTPClientTests: XCTestCase {
         return HTTPURLResponse(url: anyURL(), statusCode: 200, httpVersion: nil, headerFields: nil)!
     }
     
-    private func  nonHTTPURLResponse() -> URLResponse {
+    private func nonHTTPURLResponse() -> URLResponse {
         return URLResponse(url: anyURL(), mimeType: nil, expectedContentLength: 0, textEncodingName: nil)
     }
     
@@ -153,7 +152,6 @@ class URLSessionHTTPClientTests: XCTestCase {
         }
         
         private static var _stub: Stub?
-        /// Provide sync access to the stub for preventing data races
         private static var stub: Stub? {
             get { return queue.sync { _stub } }
             set { queue.sync { _stub = newValue } }
@@ -165,16 +163,11 @@ class URLSessionHTTPClientTests: XCTestCase {
             stub = Stub(data: data, response: response, error: error, requestObserver: nil)
         }
         
-        static func observeRequest(observer: @escaping (URLRequest) -> Void) {
+        static func observeRequests(observer: @escaping (URLRequest) -> Void) {
             stub = Stub(data: nil, response: nil, error: nil, requestObserver: observer)
         }
         
-        static func startInterceptingRequests() {
-            URLProtocol.registerClass(URLProtocolStub.self)
-        }
-        
-        static func stopInterceptingRequests() {
-            URLProtocol.unregisterClass(URLProtocolStub.self)
+        static func removeStub() {
             stub = nil
         }
         
@@ -193,7 +186,7 @@ class URLSessionHTTPClientTests: XCTestCase {
                 client?.urlProtocol(self, didLoad: data)
             }
             
-            if let response = URLProtocolStub.stub?.response {
+            if let response = stub.response {
                 client?.urlProtocol(self, didReceive: response, cacheStoragePolicy: .notAllowed)
             }
             
@@ -202,6 +195,7 @@ class URLSessionHTTPClientTests: XCTestCase {
             } else {
                 client?.urlProtocolDidFinishLoading(self)
             }
+            
             stub.requestObserver?(request)
         }
         
