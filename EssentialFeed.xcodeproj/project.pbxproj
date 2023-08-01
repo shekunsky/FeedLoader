@@ -1480,7 +1480,7 @@
 				3B985C1B2A794C900028C26D /* FeedStore2.xcdatamodel */,
 				3BAD16262A5301250071EB4D /* FeedStore.xcdatamodel */,
 			);
-			currentVersion = 3BAD16262A5301250071EB4D /* FeedStore.xcdatamodel */;
+			currentVersion = 3B985C1B2A794C900028C26D /* FeedStore2.xcdatamodel */;
 			path = FeedStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
