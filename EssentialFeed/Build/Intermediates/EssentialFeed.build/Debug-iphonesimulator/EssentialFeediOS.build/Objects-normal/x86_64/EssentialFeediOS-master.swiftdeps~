@@ -1,0 +1,35 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "aebca1850506954c429f494777aa4bfe42060f8f7cc2d7d847bded34710ca1a2"
+build_start_time: [1690558574, 971019983]
+build_end_time: [1690558575, 75067996]
+inputs:
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed Image Loader/FeedImageDataLoader.swift"
+  : !private [1690557002, 894431591]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedImageDataLoaderPresentationAdapter.swift"
+  : !private [1690557002, 895012378]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedLoaderPresentationAdapter.swift"
+  : !private [1690557002, 895488739]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedUIComposer.swift"
+  : !private [1690557002, 895940303]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedViewAdapter.swift"
+  : !private [1690557002, 896365642]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/MainQueueDispatchDecorator.swift"
+  : !private [1690557002, 897485733]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/WeakRefVirtualProxy.swift"
+  : !private [1690557002, 898158550]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Controllers/FeedImageCellController.swift"
+  : !private [1690557002, 898732423]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Controllers/FeedViewController.swift"
+  : !private [1690557002, 899222373]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/ErrorView.swift"
+  : !private [1690557002, 899780750]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/FeedImageCell.swift"
+  : !private [1690557002, 905929565]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UIImageView+Animations.swift"
+  : !private [1690557002, 906685352]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UIRefreshControl+Helpers.swift"
+  : !private [1690557002, 907193183]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UITableView+Dequeueing.swift"
+  : !private [1690557002, 908068656]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UIView+Shimmering.swift"
+  : !private [1690557002, 908548355]

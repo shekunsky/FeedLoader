@@ -1,0 +1,12 @@
+Target dependency graph (6 targets)
+EssentialFeed in EssentialFeed, no dependencies
+EssentialFeedTests in EssentialFeed, depends on:
+EssentialFeed in EssentialFeed (explicit)
+EssentialFeedAPIEndToEndTests in EssentialFeed, depends on:
+EssentialFeed in EssentialFeed (explicit)
+EssentialFeedCacheIntegrationTests in EssentialFeed, depends on:
+EssentialFeed in EssentialFeed (explicit)
+EssentialFeediOS in EssentialFeed, depends on:
+EssentialFeed in EssentialFeed (implicit dependency via file 'EssentialFeed.framework' in build phase 'Link Binary')
+EssentialFeediOSTests in EssentialFeed, depends on:
+EssentialFeediOS in EssentialFeed (explicit)

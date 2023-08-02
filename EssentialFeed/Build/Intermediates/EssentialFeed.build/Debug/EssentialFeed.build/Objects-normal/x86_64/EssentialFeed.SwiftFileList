@@ -1,0 +1,28 @@
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Presentattion/FeedViewModel.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/LocalFeedImage.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Presentattion/FeedErrorViewModel.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/FeedStore.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/FeedImageDataStore.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ API/URLSessionHTTPClient.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Presentattion/FeedImagePresenter.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Presentattion/FeedPresenter.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ API/RemoteFeedLoader.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Presentattion/FeedLoadingViewModel.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ API/HTTPClient.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/Infrastructure/CoreData/CoreDataHelpers.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/FeedFeature/FeedImageDataLoader.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/Infrastructure/CoreData/CoreDataFeedStore+FeedStore.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/FeedFeature/FeedLoader.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/Infrastructure/CoreData/CoreDataFeedStore.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/Infrastructure/CoreData/ManagedCache.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ API/Helpers/HTTPURLResponse+StatusCode.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/Infrastructure/CoreData/CoreDataFeedStore+FeedImageDataLoader.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ API/FeedItemsMapper.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ API/RemoteFeedItem.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/FeedCachePolicy.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Presentattion/FeedImageViewModel.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ API/RemoteFeedImageDataLoader.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/Infrastructure/CoreData/ManagedFeedImage.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/LocalFeedImageDataLoader.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed\ Cache/LocalFeedLoader.swift
+/Users/alex2/Desktop/Пример\ кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/FeedFeature/FeedImage.swift

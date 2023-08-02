@@ -1,0 +1,55 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "0fed0a461d9c06558ebc20247a48436a593330445a45ce14c82ce5c188b49755"
+build_start_time: [1690976672, 106119155]
+build_end_time: [1690976674, 717169046]
+inputs:
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed API/LoadFeedFromRemoteUseCaseTests.swift"
+  : [1690814339, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed API/LoadFeedImageDataFromRemoteUseCaseTests.swift"
+  : [1690816294, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed API/URLSessionHTTPClientTests.swift"
+  : [1690972295, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/CacheFeedImageDataUseCaseTests.swift"
+  : [1690893839, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/CacheFeedUseCaseTests.swift"
+  : [1688819643, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/CoreDataFeedImageDataStoreTests.swift"
+  : [1690901756, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/CoreDataFeedStoreTests.swift"
+  : [1688565491, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/FeedStoreSpecs/FeedStoreSpecs.swift"
+  : [1688562629, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/FeedStoreSpecs/XCTestCase+FailableDeleteFeedStoreSpecs.swift"
+  : [1688816137, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/FeedStoreSpecs/XCTestCase+FailableInsertFeedStoreSpecs.swift"
+  : [1688815983, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/FeedStoreSpecs/XCTestCase+FailableRetrieveFeedStoreSpecs.swift"
+  : [1688562629, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/FeedStoreSpecs/XCTestCase+FeedStoreSpecs.swift"
+  : [1688819749, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/Helpers/FeedCacheTestHelpers.swift"
+  : [1688562629, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/Helpers/FeedImageDataStoreSpy.swift"
+  : [1690893604, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/Helpers/FeedStoreSpy.swift"
+  : [1688819709, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/LoadFeedFromCacheUseCaseTests.swift"
+  : [1688562629, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/LoadFeedImageDataFromCacheUseCaseTests.swift"
+  : [1690892727, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/ValidateFeedCacheUseCaseTests.swift"
+  : [1690973194, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Presentation/FeedImagePresenterTests.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Presentation/FeedLocalizationTests.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Presentation/FeedPresenterTests.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/HTTPClientSpy.swift"
+  : [1690814339, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/SharedTestHelpers.swift"
+  : [1690814122, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/URLProtocolStub.swift"
+  : [1690816162, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/XCTestCase+MemoryLeakTracking.swift"
+  : [1688562629, 0]

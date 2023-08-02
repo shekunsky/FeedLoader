@@ -1,0 +1,61 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c8b471981eef3cb2085165d19959ade7088e0b7fc362b3368b003355ff9dd8a7"
+    },
+    {
+      "guid" : "c8b471981eef3cb2085165d19959ade7c7190096a5a09a284f8c03dfd1346688"
+    }
+  ],
+  "containerPath" : "/Users/alex2/Desktop/Пример кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/alex2/Desktop/Пример кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/Build/Intermediates",
+      "buildProductsPath" : "/Users/alex2/Desktop/Пример кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/Build/Products",
+      "derivedDataPath" : "/Users/alex2/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/alex2/Library/Developer/Xcode/DerivedData/EssentialFeed-cwrbcxptsamchqgoihcoyyslfkwp/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/alex2/Library/Developer/Xcode/DerivedData/EssentialFeed-cwrbcxptsamchqgoihcoyyslfkwp/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/alex2/Desktop/Пример кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/Build/Intermediates/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/alex2/Desktop/Пример кода/EssentialDeveloper/FeedLoaderProject/EssentialFeed/Build/Intermediates/CodeCoverage/ProfileData",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "test",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

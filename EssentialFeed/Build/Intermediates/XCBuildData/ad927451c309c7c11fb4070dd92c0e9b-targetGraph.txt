@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+EssentialFeed in EssentialFeed, no dependencies
+EssentialFeedCacheIntegrationTests in EssentialFeed, depends on:
+EssentialFeed in EssentialFeed (explicit)

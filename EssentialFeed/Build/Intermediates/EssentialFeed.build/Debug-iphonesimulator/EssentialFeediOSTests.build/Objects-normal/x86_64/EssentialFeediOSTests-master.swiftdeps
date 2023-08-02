@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "5a803842d54e1f3fc84d52756b0ed3cac25bf97b49b9d6d636bbaf00d259426f"
+build_start_time: [1690976708, 326126098]
+build_end_time: [1690976715, 731524944]
+inputs:
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/XCTestCase+MemoryLeakTracking.swift"
+  : [1688562629, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/FeedUIIntegrationTests.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/FeedImageCell+TestHelpers.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/FeedUIIntegrationTests+Assertions.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/FeedUIIntegrationTests+LoaderSpy.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/FeedUIIntegrationTests+Localization.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/FeedViewController+TestHelpers.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/UIButton+TestHelpers.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/UIControl+TestHelpers.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/UIImage+TestHelpers.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/UIRefreshControl+TestHelpers.swift"
+  : [1690557002, 0]

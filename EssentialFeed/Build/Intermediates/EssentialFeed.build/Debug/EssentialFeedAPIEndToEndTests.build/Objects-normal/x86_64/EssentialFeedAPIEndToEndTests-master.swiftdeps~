@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "23c2a108aec063d8e388a1d9e6f018e0c3bf4709346294db9028459242580304"
+build_start_time: [1690804329, 254505157]
+build_end_time: [1690804329, 305828094]
+inputs:
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedAPIEndToEndTests/EssentialFeedAPIEndToEndTests.swift"
+  : !private [1688812201, 978320598]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/XCTestCase+MemoryLeakTracking.swift"
+  : !private [1688562629, 62978744]

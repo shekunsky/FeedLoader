@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "5346bde5861b91244901a9e803c05134b754d418bac24cafb1a2a0b3252b28c1"
+build_start_time: [1690804329, 267539978]
+build_end_time: [1690804329, 307674884]
+inputs:
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedCacheIntegrationTests/EssentialFeedCacheIntegrationTests.swift"
+  : !private [1688820358, 769865036]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Feed Cache/Helpers/FeedCacheTestHelpers.swift"
+  : !private [1688562629, 59698581]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/SharedTestHelpers.swift"
+  : !private [1688562629, 62478542]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeedTests/Helpers/XCTestCase+MemoryLeakTracking.swift"
+  : !private [1688562629, 62978744]

@@ -1,0 +1,47 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "864347f83d4ee4dbc6e0e7903dff1310067265fbb8a37ae6112515306f955106"
+build_start_time: [1690558569, 810497045]
+build_end_time: [1690558569, 877170085]
+inputs:
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed API/FeedItemsMapper.swift"
+  : !private [1688562629, 43212413]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed API/HTTPClient.swift"
+  : !private [1688813100, 320301532]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed API/RemoteFeedItem.swift"
+  : !private [1688562629, 44418334]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed API/RemoteFeedLoader.swift"
+  : !private [1688813186, 673736095]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed API/URLSessionHTTPClient.swift"
+  : !private [1688940573, 930446863]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/FeedCachePolicy.swift"
+  : !private [1688562629, 45853137]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/FeedStore.swift"
+  : !private [1688818783, 245777368]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/Infrastructure/CoreData/CoreDataFeedStore.swift"
+  : !private [1688823338, 837547779]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/Infrastructure/CoreData/CoreDataHelpers.swift"
+  : !private [1688565342, 450668811]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/Infrastructure/CoreData/ManagedCache.swift"
+  : !private [1688562629, 49429893]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/Infrastructure/CoreData/ManagedFeedImage.swift"
+  : !private [1688562629, 49906492]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/LocalFeedImage.swift"
+  : !private [1688562629, 50931453]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Cache/LocalFeedLoader.swift"
+  : !private [1688819583, 524799823]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Presentattion/FeedErrorViewModel.swift"
+  : !private [1690557002, 885863065]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Presentattion/FeedImagePresenter.swift"
+  : !private [1690557002, 886489868]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Presentattion/FeedImageViewModel.swift"
+  : !private [1690557002, 887035846]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Presentattion/FeedLoadingViewModel.swift"
+  : !private [1690557002, 887627840]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Presentattion/FeedPresenter.swift"
+  : !private [1690557002, 888184547]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/Feed Presentattion/FeedViewModel.swift"
+  : !private [1690557002, 888859272]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/FeedFeature/FeedImage.swift"
+  : !private [1690557002, 891739368]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeed/FeedFeature/FeedLoader.swift"
+  : !private [1688812156, 123621463]

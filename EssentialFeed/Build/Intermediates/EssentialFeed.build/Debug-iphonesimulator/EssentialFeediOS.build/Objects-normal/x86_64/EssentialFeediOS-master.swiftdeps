@@ -1,0 +1,33 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "b7e116ff782f7c2788c9d49794e38d238224e3edbb3b4e1cda81e8a81d098acc"
+build_start_time: [1690976706, 825223922]
+build_end_time: [1690976715, 355957031]
+inputs:
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedImageDataLoaderPresentationAdapter.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedLoaderPresentationAdapter.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedUIComposer.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/FeedViewAdapter.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/MainQueueDispatchDecorator.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Composers/WeakRefVirtualProxy.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Controllers/FeedImageCellController.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Controllers/FeedViewController.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/ErrorView.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/FeedImageCell.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UIImageView+Animations.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UIRefreshControl+Helpers.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UITableView+Dequeueing.swift"
+  : [1690557002, 0]
+  ? "/Users/alex2/Desktop/\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u043E\u0434\u0430/EssentialDeveloper/FeedLoaderProject/EssentialFeed/EssentialFeediOS/Feed UI/Views/Helpers/UIView+Shimmering.swift"
+  : [1690557002, 0]
