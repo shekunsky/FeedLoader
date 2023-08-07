@@ -26,6 +26,7 @@
 		3BA1366B2A8111AC003652A1 /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1366A2A8111AC003652A1 /* FeedLoaderStub.swift */; };
 		3BA1366D2A8113AA003652A1 /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1366C2A8113AA003652A1 /* XCTestCase+FeedLoader.swift */; };
 		3BA136712A811C83003652A1 /* FeedLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA136702A811C83003652A1 /* FeedLoaderCacheDecorator.swift */; };
+		3BA136732A811FA1003652A1 /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA136722A811FA1003652A1 /* FeedImageDataLoaderCacheDecoratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		3BA1366A2A8111AC003652A1 /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
 		3BA1366C2A8113AA003652A1 /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 		3BA136702A811C83003652A1 /* FeedLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecorator.swift; sourceTree = "<group>"; };
+		3BA136722A811FA1003652A1 /* FeedImageDataLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				3BA1365B2A7D1BDB003652A1 /* FeedLoaderWithFallbackCompositeTests.swift */,
 				3BA1365F2A7D273A003652A1 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				3BA136682A810F2C003652A1 /* FeedLoaderCacheDecoratorTests.swift */,
+				3BA136722A811FA1003652A1 /* FeedImageDataLoaderCacheDecoratorTests.swift */,
 				3BA1365A2A7D1BDB003652A1 /* EssentialAppTests-Bridging-Header.h */,
 			);
 			path = EssentialAppTests;
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA136672A7D35D1003652A1 /* SharedTestHelpers.swift in Sources */,
+				3BA136732A811FA1003652A1 /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */,
 				3BA1366D2A8113AA003652A1 /* XCTestCase+FeedLoader.swift in Sources */,
 				3BA136692A810F2C003652A1 /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				3BA136602A7D273A003652A1 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
