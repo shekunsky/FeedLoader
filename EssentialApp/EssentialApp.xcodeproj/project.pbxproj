@@ -25,6 +25,7 @@
 		3BA136692A810F2C003652A1 /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA136682A810F2C003652A1 /* FeedLoaderCacheDecoratorTests.swift */; };
 		3BA1366B2A8111AC003652A1 /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1366A2A8111AC003652A1 /* FeedLoaderStub.swift */; };
 		3BA1366D2A8113AA003652A1 /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1366C2A8113AA003652A1 /* XCTestCase+FeedLoader.swift */; };
+		3BA136712A811C83003652A1 /* FeedLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA136702A811C83003652A1 /* FeedLoaderCacheDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		3BA136682A810F2C003652A1 /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		3BA1366A2A8111AC003652A1 /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
 		3BA1366C2A8113AA003652A1 /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
+		3BA136702A811C83003652A1 /* FeedLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				3B6A110C2A7A8165008F3C2D /* SceneDelegate.swift */,
 				3BA1365D2A7D2367003652A1 /* FeedLoaderWithFallbackComposite.swift */,
 				3BA136612A7D340B003652A1 /* FeedImageDataLoaderWithFallbackComposite.swift */,
+				3BA136702A811C83003652A1 /* FeedLoaderCacheDecorator.swift */,
 				3B6A11102A7A8165008F3C2D /* Main.storyboard */,
 				3B6A11132A7A8168008F3C2D /* Assets.xcassets */,
 				3B6A11152A7A8168008F3C2D /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				3BA136622A7D340B003652A1 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				3B6A110B2A7A8165008F3C2D /* AppDelegate.swift in Sources */,
 				3BA1365E2A7D2367003652A1 /* FeedLoaderWithFallbackComposite.swift in Sources */,
+				3BA136712A811C83003652A1 /* FeedLoaderCacheDecorator.swift in Sources */,
 				3B6A110D2A7A8165008F3C2D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
