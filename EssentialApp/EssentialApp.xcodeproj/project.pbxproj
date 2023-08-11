@@ -51,6 +51,7 @@
 		3BE1C7BC2A86603C0020B316 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7A12A865BA50020B316 /* FeedViewAdapter.swift */; };
 		3BE1C7BE2A8667B70020B316 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7BD2A8667B70020B316 /* FeedAcceptanceTests.swift */; };
 		3BE1C7C02A8677FA0020B316 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */; };
+		3BE1C7C22A8678650020B316 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +134,7 @@
 		3BE1C7B52A865FBE0020B316 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		3BE1C7BD2A8667B70020B316 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
+		3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				3BA136742A8127D3003652A1 /* FeedImageDataLoaderSpy.swift */,
 				3BA136762A81287A003652A1 /* XCTestCase+FeedImageDataLoader.swift */,
 				3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */,
+				3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				3BA136692A810F2C003652A1 /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				3BA136752A8127D3003652A1 /* FeedImageDataLoaderSpy.swift in Sources */,
 				3BE1C7B22A865C3C0020B316 /* UIControl+TestHelpers.swift in Sources */,
+				3BE1C7C22A8678650020B316 /* InMemoryFeedStore.swift in Sources */,
 				3BA136602A7D273A003652A1 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				3BA1365C2A7D1BDB003652A1 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				3BA1366B2A8111AC003652A1 /* FeedLoaderStub.swift in Sources */,
