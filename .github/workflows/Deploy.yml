@@ -45,7 +45,7 @@ jobs:
       run: echo ${{ github.run_number }}
 
     - name: Set build number
-      run: /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }} + 1" "EssentialApp/EssentialApp/Info.plist"
+      run: /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "EssentialApp/EssentialApp/Info.plist"
       
     - name: Build
       run: xcodebuild clean archive -sdk iphoneos -workspace EssentialApp/EssentialApp.xcworkspace -configuration "Release" -scheme "EssentialApp" -derivedDataPath "DerivedData" -archivePath "DerivedData/Archive/EssentialApp.xcarchive"
