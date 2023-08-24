@@ -22,7 +22,9 @@ class DebuggingSceneDelegate: SceneDelegate {
     
     override func makeRemoteClient() -> HTTPClient {
         if let connectivity = UserDefaults.standard.string(forKey: "connectivity") {
-            return DebuggingHTTPClient(connectivity: connectivity)
+            let client = DebuggingHTTPClient(connectivity: connectivity)
+            remoteFeedLoader = RemoteFeedLoader(url: remoteURL, client: client)
+            return client
         }
         return super.makeRemoteClient()
     }
