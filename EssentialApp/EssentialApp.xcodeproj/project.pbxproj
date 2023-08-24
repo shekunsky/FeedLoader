@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B226E842A8BB52400337169 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B226E832A8BB52400337169 /* UIView+TestHelpers.swift */; };
+		3B30CEC82A976C2700A8B0C4 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B30CEC72A976C2700A8B0C4 /* CombineHelpers.swift */; };
 		3B6A110B2A7A8165008F3C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A110A2A7A8165008F3C2D /* AppDelegate.swift */; };
 		3B6A110D2A7A8165008F3C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A110C2A7A8165008F3C2D /* SceneDelegate.swift */; };
 		3B6A11142A7A8168008F3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A11132A7A8168008F3C2D /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 
 /* Begin PBXFileReference section */
 		3B226E832A8BB52400337169 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
+		3B30CEC72A976C2700A8B0C4 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 		3B6A11072A7A8165008F3C2D /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6A110A2A7A8165008F3C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6A110C2A7A8165008F3C2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				3B6A110A2A7A8165008F3C2D /* AppDelegate.swift */,
 				3B6A110C2A7A8165008F3C2D /* SceneDelegate.swift */,
 				3BE1C7982A82837C0020B316 /* DebuggingSceneDelegate.swift */,
+				3B30CEC72A976C2700A8B0C4 /* CombineHelpers.swift */,
 				3B6A11132A7A8168008F3C2D /* Assets.xcassets */,
 				3B6A11152A7A8168008F3C2D /* LaunchScreen.storyboard */,
 				3B6A11182A7A8168008F3C2D /* Info.plist */,
@@ -375,6 +378,7 @@
 			files = (
 				3BE1C7B92A8660300020B316 /* WeakRefVirtualProxy.swift in Sources */,
 				3BE1C7B72A86602A0020B316 /* FeedUIComposer.swift in Sources */,
+				3B30CEC82A976C2700A8B0C4 /* CombineHelpers.swift in Sources */,
 				3B6A110B2A7A8165008F3C2D /* AppDelegate.swift in Sources */,
 				3BE1C7BB2A8660380020B316 /* FeedLoaderPresentationAdapter.swift in Sources */,
 				3BE1C7992A82837C0020B316 /* DebuggingSceneDelegate.swift in Sources */,
