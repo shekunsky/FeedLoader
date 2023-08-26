@@ -16,5 +16,6 @@
     APPSTORE_USERNAME - appleID for AppStore Connect
     APPSTORE_PASSWORD - App-Specific password for the application (can be made at https://appleid.apple.com/ - for me this link worked only with Google Chrome)
 7. For first deploy - build number must be greater than previously deployed build. Later this number will be incremented automatically. 
+8. In Project Build Settings set "Generate Info.plist file" to "NO"
 
     
