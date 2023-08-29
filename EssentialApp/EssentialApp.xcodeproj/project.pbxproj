@@ -19,8 +19,6 @@
 		3BA136582A7A89C7003652A1 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA136542A7A89C7003652A1 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3BA136652A7D3561003652A1 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA136642A7D3561003652A1 /* XCTestCase+MemoryLeakTracking.swift */; };
 		3BA136672A7D35D1003652A1 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA136662A7D35D1003652A1 /* SharedTestHelpers.swift */; };
-		3BA1366B2A8111AC003652A1 /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1366A2A8111AC003652A1 /* FeedLoaderStub.swift */; };
-		3BA1366D2A8113AA003652A1 /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1366C2A8113AA003652A1 /* XCTestCase+FeedLoader.swift */; };
 		3BA136832A827055003652A1 /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA136822A827055003652A1 /* EssentialAppUIAcceptanceTests.swift */; };
 		3BE1C7992A82837C0020B316 /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7982A82837C0020B316 /* DebuggingSceneDelegate.swift */; };
 		3BE1C79B2A86598F0020B316 /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C79A2A86598F0020B316 /* SceneDelegateTests.swift */; };
@@ -91,8 +89,6 @@
 		3BA1365A2A7D1BDB003652A1 /* EssentialAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EssentialAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		3BA136642A7D3561003652A1 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		3BA136662A7D35D1003652A1 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
-		3BA1366A2A8111AC003652A1 /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
-		3BA1366C2A8113AA003652A1 /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 		3BA136802A827054003652A1 /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA136822A827055003652A1 /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		3BE1C7982A82837C0020B316 /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
@@ -216,8 +212,6 @@
 				3BE1C7AA2A865C3C0020B316 /* UIRefreshControl+TestHelpers.swift */,
 				3BA136642A7D3561003652A1 /* XCTestCase+MemoryLeakTracking.swift */,
 				3BA136662A7D35D1003652A1 /* SharedTestHelpers.swift */,
-				3BA1366A2A8111AC003652A1 /* FeedLoaderStub.swift */,
-				3BA1366C2A8113AA003652A1 /* XCTestCase+FeedLoader.swift */,
 				3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */,
 				3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */,
 			);
@@ -395,12 +389,10 @@
 				3BE1C7B42A865C3C0020B316 /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */,
 				3BE1C7B02A865C3C0020B316 /* FeedViewController+TestHelpers.swift in Sources */,
 				3BA136672A7D35D1003652A1 /* SharedTestHelpers.swift in Sources */,
-				3BA1366D2A8113AA003652A1 /* XCTestCase+FeedLoader.swift in Sources */,
 				3BE1C7AF2A865C3C0020B316 /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				3BE1C79B2A86598F0020B316 /* SceneDelegateTests.swift in Sources */,
 				3BE1C7B22A865C3C0020B316 /* UIControl+TestHelpers.swift in Sources */,
 				3BE1C7C22A8678650020B316 /* InMemoryFeedStore.swift in Sources */,
-				3BA1366B2A8111AC003652A1 /* FeedLoaderStub.swift in Sources */,
 				3BA136652A7D3561003652A1 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				3BE1C7C02A8677FA0020B316 /* HTTPClientStub.swift in Sources */,
 				3BE1C7B32A865C3C0020B316 /* UIRefreshControl+TestHelpers.swift in Sources */,
