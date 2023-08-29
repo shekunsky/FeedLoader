@@ -27,6 +27,8 @@
 		3B2AC6C22A9CE35F007253D9 /* RemoteImageCommentsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6C12A9CE35F007253D9 /* RemoteImageCommentsLoader.swift */; };
 		3B2AC6C42A9CE44B007253D9 /* ImageCommentsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6C32A9CE44B007253D9 /* ImageCommentsMapper.swift */; };
 		3B2AC6C72A9CEB15007253D9 /* ImageComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6C62A9CEB15007253D9 /* ImageComment.swift */; };
+		3B2AC6D22A9E0A2E007253D9 /* RemoteLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6D12A9E0A2E007253D9 /* RemoteLoaderTests.swift */; };
+		3B2AC6D42A9E0A92007253D9 /* RemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6D32A9E0A92007253D9 /* RemoteLoader.swift */; };
 		3B2D943C2A276C7A00A35C06 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D943B2A276C7900A35C06 /* EssentialFeed.docc */; };
 		3B2D94422A276C7A00A35C06 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2D94372A276C7900A35C06 /* EssentialFeed.framework */; };
 		3B2D94472A276C7A00A35C06 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D94462A276C7A00A35C06 /* LoadFeedFromRemoteUseCaseTests.swift */; };
@@ -150,6 +152,8 @@
 		3B2AC6C12A9CE35F007253D9 /* RemoteImageCommentsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageCommentsLoader.swift; sourceTree = "<group>"; };
 		3B2AC6C32A9CE44B007253D9 /* ImageCommentsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsMapper.swift; sourceTree = "<group>"; };
 		3B2AC6C62A9CEB15007253D9 /* ImageComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComment.swift; sourceTree = "<group>"; };
+		3B2AC6D12A9E0A2E007253D9 /* RemoteLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoaderTests.swift; sourceTree = "<group>"; };
+		3B2AC6D32A9E0A92007253D9 /* RemoteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoader.swift; sourceTree = "<group>"; };
 		3B2D94372A276C7900A35C06 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2D943A2A276C7900A35C06 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		3B2D943B2A276C7900A35C06 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -373,6 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				3B2D945F2A2F60FC00A35C06 /* HTTPClient.swift */,
+				3B2AC6D32A9E0A92007253D9 /* RemoteLoader.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				3B2AC6CB2A9CEF72007253D9 /* Heplers */,
+				3B2AC6D12A9E0A2E007253D9 /* RemoteLoaderTests.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -924,6 +930,7 @@
 				3B5D8FA02A7403CB00FEB848 /* FeedViewModel.swift in Sources */,
 				3B32BE082A432C2D00CDB1EB /* LocalFeedImage.swift in Sources */,
 				3BAD16272A5301250071EB4D /* FeedStore.xcdatamodeld in Sources */,
+				3B2AC6D42A9E0A92007253D9 /* RemoteLoader.swift in Sources */,
 				3B5D8FA42A74046200FEB848 /* FeedErrorViewModel.swift in Sources */,
 				3B32BE042A41E6F100CDB1EB /* FeedStore.swift in Sources */,
 				3B985C142A792AE10028C26D /* FeedImageDataStore.swift in Sources */,
@@ -983,6 +990,7 @@
 				3BAD161F2A52EF680071EB4D /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */,
 				3BAD161B2A52EE130071EB4D /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				3BDC29862A4474D500E6D8FD /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
+				3B2AC6D22A9E0A2E007253D9 /* RemoteLoaderTests.swift in Sources */,
 				3BAD16172A52EA710071EB4D /* FeedStoreSpecs.swift in Sources */,
 				3B2D94682A3372D500A35C06 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				3BAD16222A52FE510071EB4D /* CoreDataFeedStoreTests.swift in Sources */,
