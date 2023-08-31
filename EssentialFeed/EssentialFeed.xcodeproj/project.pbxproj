@@ -35,6 +35,9 @@
 		3B2AC6EA2A9F8FD8007253D9 /* SharedLocalizationTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6E92A9F8FD8007253D9 /* SharedLocalizationTestHelpers.swift */; };
 		3B2AC6EC2AA097A5007253D9 /* ResourceLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6EB2AA097A5007253D9 /* ResourceLoadingView.swift */; };
 		3B2AC6EE2AA098EF007253D9 /* ResourceErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6ED2AA098EF007253D9 /* ResourceErrorView.swift */; };
+		3B2AC6F22AA0C463007253D9 /* ImageCommentsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6F12AA0C463007253D9 /* ImageCommentsPresenterTests.swift */; };
+		3B2AC6F42AA0C476007253D9 /* ImageCommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AC6F32AA0C476007253D9 /* ImageCommentsPresenter.swift */; };
+		3B2AC6F62AA0C4C3007253D9 /* ImageComments.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B2AC6F52AA0C4C3007253D9 /* ImageComments.strings */; };
 		3B2D943C2A276C7A00A35C06 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D943B2A276C7900A35C06 /* EssentialFeed.docc */; };
 		3B2D94422A276C7A00A35C06 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2D94372A276C7900A35C06 /* EssentialFeed.framework */; };
 		3B2D94472A276C7A00A35C06 /* FeedItemsMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D94462A276C7A00A35C06 /* FeedItemsMapperTests.swift */; };
@@ -163,6 +166,9 @@
 		3B2AC6E92A9F8FD8007253D9 /* SharedLocalizationTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLocalizationTestHelpers.swift; sourceTree = "<group>"; };
 		3B2AC6EB2AA097A5007253D9 /* ResourceLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceLoadingView.swift; sourceTree = "<group>"; };
 		3B2AC6ED2AA098EF007253D9 /* ResourceErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceErrorView.swift; sourceTree = "<group>"; };
+		3B2AC6F12AA0C463007253D9 /* ImageCommentsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenterTests.swift; sourceTree = "<group>"; };
+		3B2AC6F32AA0C476007253D9 /* ImageCommentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenter.swift; sourceTree = "<group>"; };
+		3B2AC6F52AA0C4C3007253D9 /* ImageComments.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ImageComments.strings; sourceTree = "<group>"; };
 		3B2D94372A276C7900A35C06 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2D943A2A276C7900A35C06 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		3B2D943B2A276C7900A35C06 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -455,6 +461,23 @@
 			path = "Shared Presentation";
 			sourceTree = "<group>";
 		};
+		3B2AC6EF2AA0C431007253D9 /* Image Comments Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3B2AC6F32AA0C476007253D9 /* ImageCommentsPresenter.swift */,
+				3B2AC6F52AA0C4C3007253D9 /* ImageComments.strings */,
+			);
+			path = "Image Comments Presentation";
+			sourceTree = "<group>";
+		};
+		3B2AC6F02AA0C443007253D9 /* Image Comments Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3B2AC6F12AA0C463007253D9 /* ImageCommentsPresenterTests.swift */,
+			);
+			path = "Image Comments Presentation";
+			sourceTree = "<group>";
+		};
 		3B2D942D2A276C7900A35C06 = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +512,7 @@
 				3B2AC6C92A9CEF1B007253D9 /* Shared API Infra */,
 				3B2AC6DA2A9F7E47007253D9 /* Shared Presentation */,
 				3B2AC6C52A9CEAFA007253D9 /* Image Comments Feature */,
+				3B2AC6EF2AA0C431007253D9 /* Image Comments Presentation */,
 				3B2AC6CE2A9CF0F0007253D9 /* Image Comments API */,
 				3B32BE002A41E60000CDB1EB /* Feed Cache */,
 				3B2D94552A276F9100A35C06 /* FeedFeature */,
@@ -509,6 +533,7 @@
 				3B2AC6CA2A9CEF55007253D9 /* Shared API */,
 				3B2AC6CC2A9CEF99007253D9 /* Shared API Infra */,
 				3B2AC6D02A9CF14A007253D9 /* Image Comments API */,
+				3B2AC6F02AA0C443007253D9 /* Image Comments Presentation */,
 				3B2D94632A2F70F900A35C06 /* Feed API */,
 				3B5D8F912A73F0D900FEB848 /* Feed Presentation */,
 			);
@@ -879,6 +904,7 @@
 			files = (
 				3B5D8F9E2A74035F00FEB848 /* Feed.strings in Resources */,
 				3B2AC6E52A9F8C06007253D9 /* Shared.strings in Resources */,
+				3B2AC6F62AA0C4C3007253D9 /* ImageComments.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -970,6 +996,7 @@
 				3B2D943C2A276C7A00A35C06 /* EssentialFeed.docc in Sources */,
 				3B2AC6EC2AA097A5007253D9 /* ResourceLoadingView.swift in Sources */,
 				3B5D8FAD2A7410B400FEB848 /* FeedImageViewModel.swift in Sources */,
+				3B2AC6F42AA0C476007253D9 /* ImageCommentsPresenter.swift in Sources */,
 				3B35DD292A544795004DB2C4 /* ManagedFeedImage.swift in Sources */,
 				3B985C122A792AD10028C26D /* LocalFeedImageDataLoader.swift in Sources */,
 				3B32BE022A41E65600CDB1EB /* LocalFeedLoader.swift in Sources */,
@@ -990,6 +1017,7 @@
 				3B5D8FA92A7409B800FEB848 /* FeedImagePresenterTests.swift in Sources */,
 				3BAD161D2A52EEC50071EB4D /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
 				3B985C182A7931010028C26D /* CacheFeedImageDataUseCaseTests.swift in Sources */,
+				3B2AC6F22AA0C463007253D9 /* ImageCommentsPresenterTests.swift in Sources */,
 				3B2AC6D62A9E383B007253D9 /* FeedImageDataMapperTests.swift in Sources */,
 				3B5D8FA72A7407A500FEB848 /* FeedLocalizationTests.swift in Sources */,
 				3B2D94652A32155500A35C06 /* URLSessionHTTPClientTests.swift in Sources */,
