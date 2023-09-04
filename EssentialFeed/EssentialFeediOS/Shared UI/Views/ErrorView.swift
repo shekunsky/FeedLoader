@@ -30,7 +30,7 @@ public final class ErrorView: UIButton {
         
         var attributes = AttributeContainer()
         attributes.paragraphStyle = paragraphStyle
-        attributes.font = UIFont.preferredFont(forTextStyle: .body)
+        attributes.font = .preferredFont(forTextStyle: .body)
         return attributes
     }
     
