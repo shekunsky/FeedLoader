@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1FAE7C2AA8876400CBEB44 /* CommentsUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FAE7B2AA8876400CBEB44 /* CommentsUIIntegrationTests.swift */; };
+		3B1FAE7E2AA88ADB00CBEB44 /* CommentsUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FAE7D2AA88ADB00CBEB44 /* CommentsUIComposer.swift */; };
 		3B226E842A8BB52400337169 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B226E832A8BB52400337169 /* UIView+TestHelpers.swift */; };
 		3B30CEC82A976C2700A8B0C4 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B30CEC72A976C2700A8B0C4 /* CombineHelpers.swift */; };
 		3B6A110B2A7A8165008F3C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A110A2A7A8165008F3C2D /* AppDelegate.swift */; };
@@ -74,6 +76,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B1FAE7B2AA8876400CBEB44 /* CommentsUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIIntegrationTests.swift; sourceTree = "<group>"; };
+		3B1FAE7D2AA88ADB00CBEB44 /* CommentsUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIComposer.swift; sourceTree = "<group>"; };
 		3B226E832A8BB52400337169 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 		3B30CEC72A976C2700A8B0C4 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 		3B6A11072A7A8165008F3C2D /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +183,7 @@
 			children = (
 				3BA136632A7D354C003652A1 /* Helpers */,
 				3BE1C7B52A865FBE0020B316 /* FeedUIIntegrationTests.swift */,
+				3B1FAE7B2AA8876400CBEB44 /* CommentsUIIntegrationTests.swift */,
 				3BE1C79A2A86598F0020B316 /* SceneDelegateTests.swift */,
 				3BE1C7BD2A8667B70020B316 /* FeedAcceptanceTests.swift */,
 				3BA1365A2A7D1BDB003652A1 /* EssentialAppTests-Bridging-Header.h */,
@@ -228,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				3BE1C79C2A865BA50020B316 /* FeedUIComposer.swift */,
+				3B1FAE7D2AA88ADB00CBEB44 /* CommentsUIComposer.swift */,
 				3BE1C79E2A865BA50020B316 /* WeakRefVirtualProxy.swift */,
 				3BE1C7A02A865BA50020B316 /* LoadResourcePresentationAdapter.swift */,
 				3BE1C7A12A865BA50020B316 /* FeedViewAdapter.swift */,
@@ -371,6 +377,7 @@
 				3BE1C7B72A86602A0020B316 /* FeedUIComposer.swift in Sources */,
 				3B30CEC82A976C2700A8B0C4 /* CombineHelpers.swift in Sources */,
 				3B6A110B2A7A8165008F3C2D /* AppDelegate.swift in Sources */,
+				3B1FAE7E2AA88ADB00CBEB44 /* CommentsUIComposer.swift in Sources */,
 				3BE1C7BB2A8660380020B316 /* LoadResourcePresentationAdapter.swift in Sources */,
 				3BE1C7992A82837C0020B316 /* DebuggingSceneDelegate.swift in Sources */,
 				3B6A110D2A7A8165008F3C2D /* SceneDelegate.swift in Sources */,
@@ -384,6 +391,7 @@
 			files = (
 				3BE1C7B42A865C3C0020B316 /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */,
 				3BE1C7B02A865C3C0020B316 /* ListViewController+TestHelpers.swift in Sources */,
+				3B1FAE7C2AA8876400CBEB44 /* CommentsUIIntegrationTests.swift in Sources */,
 				3BA136672A7D35D1003652A1 /* SharedTestHelpers.swift in Sources */,
 				3BE1C7AF2A865C3C0020B316 /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				3BE1C79B2A86598F0020B316 /* SceneDelegateTests.swift in Sources */,
