@@ -8,6 +8,7 @@
 import UIKit
 import Combine
 import CoreData
+import os
 import EssentialFeed
 import EssentialFeediOS
 
@@ -28,6 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return try CoreDataFeedStore(storeURL: localStoreURL)
         } catch {
             assertionFailure("Failed to instantiate CoreData store with error: \(error.localizedDescription)")
+            logger.fault("Failed to instantiate CoreData store with error: \(error.localizedDescription)")
             return NullStore()
         }
     }()
@@ -37,6 +39,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }()
     
     private lazy var baseURL = URL(string: "https://ile-api.essentialdeveloper.com/essential-feed")!
+    
+    private lazy var logger = Logger(subsystem: "com.shekunsky.EssentialApp", category: "main")
     
     private lazy var navigationController = UINavigationController(
         rootViewController: FeedUIComposer.feedComposedWith(
