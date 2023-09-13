@@ -15,6 +15,7 @@
 		3B6A110D2A7A8165008F3C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A110C2A7A8165008F3C2D /* SceneDelegate.swift */; };
 		3B6A11142A7A8168008F3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A11132A7A8168008F3C2D /* Assets.xcassets */; };
 		3B6A11172A7A8168008F3C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A11152A7A8168008F3C2D /* LaunchScreen.storyboard */; };
+		3B6F6A9D2AB1E7A400D0CF61 /* NullStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F6A9C2AB1E7A400D0CF61 /* NullStore.swift */; };
 		3BA136552A7A89C7003652A1 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA136532A7A89C7003652A1 /* EssentialFeed.framework */; };
 		3BA136562A7A89C7003652A1 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA136532A7A89C7003652A1 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3BA136572A7A89C7003652A1 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA136542A7A89C7003652A1 /* EssentialFeediOS.framework */; };
@@ -86,6 +87,7 @@
 		3B6A11162A7A8168008F3C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B6A11182A7A8168008F3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B6A111D2A7A8169008F3C2D /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6F6A9C2AB1E7A400D0CF61 /* NullStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullStore.swift; sourceTree = "<group>"; };
 		3BA136532A7A89C7003652A1 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA136542A7A89C7003652A1 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA1365A2A7D1BDB003652A1 /* EssentialAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EssentialAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				3B6A110C2A7A8165008F3C2D /* SceneDelegate.swift */,
 				3BE1C7982A82837C0020B316 /* DebuggingSceneDelegate.swift */,
 				3B30CEC72A976C2700A8B0C4 /* CombineHelpers.swift */,
+				3B6F6A9C2AB1E7A400D0CF61 /* NullStore.swift */,
 				3B6A11132A7A8168008F3C2D /* Assets.xcassets */,
 				3B6A11152A7A8168008F3C2D /* LaunchScreen.storyboard */,
 				3B6A11182A7A8168008F3C2D /* Info.plist */,
@@ -372,6 +375,7 @@
 			files = (
 				3BE1C7B92A8660300020B316 /* WeakRefVirtualProxy.swift in Sources */,
 				3BE1C7B72A86602A0020B316 /* FeedUIComposer.swift in Sources */,
+				3B6F6A9D2AB1E7A400D0CF61 /* NullStore.swift in Sources */,
 				3B30CEC82A976C2700A8B0C4 /* CombineHelpers.swift in Sources */,
 				3B6A110B2A7A8165008F3C2D /* AppDelegate.swift in Sources */,
 				3B1FAE7E2AA88ADB00CBEB44 /* CommentsUIComposer.swift in Sources */,
