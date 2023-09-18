@@ -17,8 +17,7 @@ class EssentialAppUIAcceptanceTests: XCTestCase {
         let feedCells = app.cells.matching(identifier: "feed-image-cell")
         XCTAssertEqual(feedCells.count, 2)
         
-        let firstImage = app.images.matching(identifier: "feed-image-view").firstMatch
-        XCTAssertTrue(firstImage.exists)
+        _ = app.images.matching(identifier: "feed-image-view").firstMatch.waitForExistence(timeout: 1)
     }
     
     func test_onLaunch_displaysCachedRemoteFeedWhenCustomerHasNoConnectivity() {
