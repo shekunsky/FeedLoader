@@ -49,11 +49,14 @@
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
+		<string>https://$(API_DOMAIN)</string>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>API_BASE_URL</key>
+	<string>https://$(API_DOMAIN)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 </dict>

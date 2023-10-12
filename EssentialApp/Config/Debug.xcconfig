@@ -1,0 +1,11 @@
+//
+//  Debug.xcconfig
+//  EssentialApp
+//
+//  Created by Alex2 on 12.10.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_DOMAIN = ile-api.essentialdeveloper.com/essential-feed

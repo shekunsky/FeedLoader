@@ -113,6 +113,8 @@
 		3BE1C7BD2A8667B70020B316 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		3BE7F4D82AD811580016BCDB /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		3BE7F4DA2AD811D30016BCDB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		3B6A10FE2A7A8165008F3C2D = {
 			isa = PBXGroup;
 			children = (
+				3BE7F4D92AD811600016BCDB /* Config */,
 				3B6A11092A7A8165008F3C2D /* EssentialApp */,
 				3B6A11202A7A8169008F3C2D /* EssentialAppTests */,
 				3BA136812A827055003652A1 /* EssentialAppUIAcceptanceTests */,
@@ -239,6 +242,15 @@
 				3BE1C7A12A865BA50020B316 /* FeedViewAdapter.swift */,
 			);
 			path = Composers;
+			sourceTree = "<group>";
+		};
+		3BE7F4D92AD811600016BCDB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7F4D82AD811580016BCDB /* Debug.xcconfig */,
+				3BE7F4DA2AD811D30016BCDB /* Release.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +459,7 @@
 /* Begin XCBuildConfiguration section */
 		3B6A112F2A7A8169008F3C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE7F4D82AD811580016BCDB /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -507,6 +520,7 @@
 		};
 		3B6A11302A7A8169008F3C2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE7F4DA2AD811D30016BCDB /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

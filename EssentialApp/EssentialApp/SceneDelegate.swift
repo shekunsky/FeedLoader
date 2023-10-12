@@ -38,8 +38,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         LocalFeedLoader(store: store, currentDate: Date.init)
     }()
     
-    private lazy var baseURL = URL(string: "https://ile-api.essentialdeveloper.com/essential-feed")!
-    
     private lazy var logger = Logger(subsystem: "com.shekunsky.EssentialApp", category: "main")
     
     private lazy var navigationController = UINavigationController(
@@ -86,8 +84,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
     }
     
+    private func baseURL() -> URL {
+        guard let urlString = Bundle.main.object(forInfoDictionaryKey: "API_BASE_URL") as? String,
+              urlString != "https://",
+              let url = URL(string: urlString) else {
+            assertionFailure("Failed to instantiate API base url from Info.plist")
+            logger.fault("Failed to instantiate API base url from Info.plist")
+            return URL(string: "http://error.com")!
+        }
+        return url
+    }
+    
     private func showComments(for image: FeedImage) {
-        let url = ImageCommentsEndpoint.get(image.id).url(baseURL: baseURL)
+        let url = ImageCommentsEndpoint.get(image.id).url(baseURL: baseURL())
         let comments = CommentsUIComposer.commentsComposedWith(commentsLoader: makeRemoteCommentsLoader(url: url))
         navigationController.pushViewController(comments, animated: true)
     }
@@ -120,7 +129,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func makeRemoteFeedLoader(after: FeedImage? = nil) -> AnyPublisher<[FeedImage], Error> {
-        let url = FeedEndpoint.get(after: after).url(baseURL: baseURL)
+        let url = FeedEndpoint.get(after: after).url(baseURL: baseURL())
         
         return makeRemoteClient()
             .getPublisher(url: url)
