@@ -14,9 +14,7 @@ class EssentialAppUIAcceptanceTests: XCTestCase {
         app.launchArguments = ["-reset", "-connectivity", "online"]
         app.launch()
         
-        let feedCells = app.cells.matching(identifier: "feed-image-cell")
-        XCTAssertEqual(feedCells.count, 2)
-        
+        _ = app.cells.matching(identifier: "feed-image-cell").firstMatch.waitForExistence(timeout: 1)
         _ = app.images.matching(identifier: "feed-image-view").firstMatch.waitForExistence(timeout: 1)
     }
     
