@@ -75,11 +75,7 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
             snapshot.appendItems(cellControllers, toSection: section)
         }
         
-        if #available(iOS 15.0, *) {
-            dataSource.applySnapshotUsingReloadData(snapshot)
-        } else {
-            dataSource.apply(snapshot)
-        }
+        dataSource.apply(snapshot)
     }
     
     public override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
