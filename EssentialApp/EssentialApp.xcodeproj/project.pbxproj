@@ -40,7 +40,6 @@
 		3BE1C7BC2A86603C0020B316 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7A12A865BA50020B316 /* FeedViewAdapter.swift */; };
 		3BE1C7BE2A8667B70020B316 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7BD2A8667B70020B316 /* FeedAcceptanceTests.swift */; };
 		3BE1C7C02A8677FA0020B316 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */; };
-		3BE1C7C22A8678650020B316 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +111,6 @@
 		3BE1C7B52A865FBE0020B316 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		3BE1C7BD2A8667B70020B316 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
-		3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 		3BE7F4D82AD811580016BCDB /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		3BE7F4DA2AD811D30016BCDB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,7 +217,6 @@
 				3BA136642A7D3561003652A1 /* XCTestCase+MemoryLeakTracking.swift */,
 				3BA136662A7D35D1003652A1 /* SharedTestHelpers.swift */,
 				3BE1C7BF2A8677FA0020B316 /* HTTPClientStub.swift */,
-				3BE1C7C12A8678650020B316 /* InMemoryFeedStore.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -409,7 +406,6 @@
 				3BE1C7AF2A865C3C0020B316 /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				3BE1C79B2A86598F0020B316 /* SceneDelegateTests.swift in Sources */,
 				3BE1C7B22A865C3C0020B316 /* UIControl+TestHelpers.swift in Sources */,
-				3BE1C7C22A8678650020B316 /* InMemoryFeedStore.swift in Sources */,
 				3BA136652A7D3561003652A1 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				3BE1C7C02A8677FA0020B316 /* HTTPClientStub.swift in Sources */,
 				3BE1C7B32A865C3C0020B316 /* UIRefreshControl+TestHelpers.swift in Sources */,
