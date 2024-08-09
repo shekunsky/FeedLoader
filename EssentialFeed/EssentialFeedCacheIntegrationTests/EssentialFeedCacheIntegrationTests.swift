@@ -14,9 +14,9 @@ class EssentialFeedCacheIntegrationTests: XCTestCase {
     }
     
     override func tearDown() {
-        super.tearDown()
-        
         undoStoreSideEffects()
+        
+        super.tearDown()
     }
     
     // MARK: - LocalFeedLoader Tests
